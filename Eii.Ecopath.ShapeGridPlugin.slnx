@@ -12,5 +12,5 @@
     <File Path=".github/workflows/build-check.yml" />
     <File Path=".github/workflows/release-nuget.yml" />
   </Folder>
-  <Project Path="src/ShapeGridPlugin/EwEShapeGridPlugin.vbproj" />
+  <Project Path="ShapeGridPlugin/EwEShapeGridPlugin.vbproj" />
 </Solution>

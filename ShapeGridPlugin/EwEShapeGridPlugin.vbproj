@@ -62,16 +62,16 @@
 	</ItemGroup>
   <ItemGroup>
     <Reference Include="SourceGrid2">
-      <HintPath>..\..\Includes\SourceGrid2.dll</HintPath>
+      <HintPath>..\Includes\SourceGrid2.dll</HintPath>
     </Reference>
     <Reference Include="SourceLibrary">
-      <HintPath>..\..\Includes\SourceLibrary.dll</HintPath>
+      <HintPath>..\Includes\SourceLibrary.dll</HintPath>
     </Reference>
     <Reference Update="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -161,6 +161,6 @@
     <PackageIcon>EII_plain_128x128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="True" PackagePath="\" />
-    <None Include="..\..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+    <None Include="..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
   </ItemGroup></Project>
